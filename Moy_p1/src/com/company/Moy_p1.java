@@ -118,6 +118,8 @@ public class Moy_p1 {
 
                 if (!(Math.abs(userAnswer - answer) < 0.001)) {
                     wrongResponse(randResp);
+                    if(numberOfResponses != 10)
+                        answer = generateQuestion(type, difficulty, random);
                     wrong++;
                 } else {
                     correctResponse(randResp);
