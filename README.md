@@ -1,4 +1,4 @@
 # Moy_PA3
 For Moy_p1, my task was to create a math problem generator. The user will be given choices on what math they want to do(add, subtract, multiply, divide), 
 the program will randomly select the numbers required and show you the equation. It will calculate the correct andswer and compare it to the one you typed. It will determnine if you are right or wrong and select 1 of the 8 
-possible responses and print that response to the console.
+possible responses and print that response to the console. It will do this 10 times, and then tell you how many you got correct and how many you got wrong. If you got less than a 75% the programm will tell you to ask for help otherwise it will say you are ready to move on to the next level. After that it will ask a presumably new user if they want to continue the program and will stop depending on their response.
